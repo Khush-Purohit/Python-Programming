@@ -1,0 +1,6 @@
+tup=(1,2,3,4)
+tup1=(3,5,2,1)
+tup2=(2,2,3,1)
+temp = tuple(zip(tup,tup1,tup2))
+temp = sum(temp[0]),sum(temp[1]),sum(temp[2])
+print(temp)
